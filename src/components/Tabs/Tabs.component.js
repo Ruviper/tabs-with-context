@@ -11,9 +11,7 @@ const Tabs = ({ className, children, tabs, activeTab, onChangeTab }) => {
             onClick={() => onChangeTab(value)}
             className={`button ${activeTab === value ? 'active-button' : ''}`}
           >
-            <span>
-              {title}
-            </span>
+            {title}
           </button>
         ))}
       </div>

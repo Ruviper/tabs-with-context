@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 
 import tabContext from '../../context/tabs/tabContext'
 
-import Tabs from '../Tabs/Tabs.container'
-import TabItem from '../Tabs/component/TabItem/TabItem.container'
+import Tabs from '../../components/Tabs/Tabs.container'
+import TabItem from '../../components/Tabs/component/TabItem/TabItem.container'
 
 const TabsWrapper = ({ className }) => {
   const tabsContext = useContext(tabContext)

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import TabProvider from './context/tabs/tabState'
-import TabsWrapper from './components/TabsWrapper/TabsWrapper.container'
+import TabProvider from './context/tabs/tabProvider'
+import TabsWrapper from './containers/TabsWrapper/TabsWrapper.container'
 
 function App() {
   return (
